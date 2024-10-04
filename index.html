@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./asset/CSS/style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header >
+
+      <!-- over the nav -->
+      <section
+        class="bg-main-color text-white py-1 align-items-center font-very-small"
+      >
+        <div class="container d-flex">
+          <div class="left pe-2 d-flex">
+            <i class="fa-solid fa-clock me-2 align-content-center"></i>
+            <p class="mb-0">Monday - Saturday 8AM to 10PM</p>
+          </div>
+          <div class="right ms-auto ps-2 d-flex ">
+            <i class="fa fa-mobile-phone me-2" style="font-size: 18px"></i>
+            <p class="mb-0">Call Us now +1 5589 55488 55</p>
+          </div>
+        </div>
+      </section>
+      <!--  nav -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary padding-x-large font-very-small bg-light bg-opacity-75  sticky-lg-top">
+        <div class="container d-flex 6">
+          <img src="./asset/images/logo.png" alt="logo" class="logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">SERVICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#department">DEPARTMENT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">DOCTORS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button
+                class="btn bg-main-color font-very-small text-light my-button "
+                type="submit"
+              >
+                Make an Appointment
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- hero -->
+      <section class="hero " id="hero">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active rounded-circle opacity-75 rounded-circle bg-light" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" class=" rounded-circle opacity-75 rounded-circle bg-light" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" class=" rounded-circle opacity-75 rounded-circle bg-light" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner  ">
+              <div class="carousel-item  active ">
+                  <img src="./asset/images/hero-carousel/hero-carousel-1.jpg" class="d-block " alt="...">
+                  <div class="carousel-caption  translate-middle  align-content-center  text-white justify-content-center w-75 position-absolute top-50 start-50  bg-light bg-opacity-75 border-top " >
+                      <h5 class="text-dark">Lorem, ipsum dolor.</h5>
+                      <p class="text-dark w-100 font-very-small"> Lorem ipsum dolor sit amet consectetur adipisicing inventore exercitationem fugiat asperiores, ducimus eius quo error expedita. </p>
+                      <button
+                      class="btn bg-main-color font-very-small text-light my-button "
+                      type="submit"
+                    >
+                      Read More
+                    </button>
+                    </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="./asset/images/hero-carousel/hero-carousel-2.jpg" class="d-block" alt="...">
+                  <div class="carousel-caption position-absolute top-50 start-50 translate-middle  align-content-center text-white justify-content-center w-75  bg-light bg-opacity-75 border-top">
+                      <h5 class="text-dark">Lorem, ipsum dolor.</h5>
+                      <p class="text-dark w-100 font-very-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, animi ea esse sit aspernatur mollitia veritatis distinctio dolorum nam ducimus repellat aliquid assumenda debitis officiis reprehenderit aut tenetur quos ullam?</p>
+                      <button
+                      class="btn bg-main-color font-very-small text-light my-button "
+                      type="submit"
+                    >
+                      Read More
+                    </button>
+                    </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="./asset/images/hero-carousel/hero-carousel-3.jpg" class="d-block" alt="...">
+                  <div class="carousel-caption position-absolute top-50 start-50 translate-middle  align-content-center text-white justify-content-center w-75  bg-light bg-opacity-75 border-top">
+                      <h5 class="text-dark">Lorem, ipsum dolor.</h5>
+                      <p class="text-dark w-100 font-very-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur magni recusandae autem porro provident? Quas est dicta ratione quod, dolorum molestias explicabo quos nobis nisi dolores doloremque eveniet quia harum!</p>
+                      <button
+                      class="btn bg-main-color font-very-small text-light my-button "
+                      type="submit"
+                    >
+                      Read More
+                    </button>
+                  </div>
+              </div>
+          </div>
+      
+      </div>
+
+
+      </section>
+<!-- first-section -->
+
+    <section class="firstSection pt-5" id="service">
+      <div class="container">
+        <div class="title">
+          <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+            <h3 class="fs-4">Service</h3>
+            <div class="line"></div>
+            <p class="font-very-small pt-2 text-center">
+              Necessite eius conse ex aliquid fuga eum quiedm sint consectetur
+              velit
+            </p>
+          </div>
+        </div>
+        <div class="row pt-3 pb-4">
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="card border-0 m-auto" style="width: 18rem;">
+              <div class="m-auto circle-for-icon d-flex justify-content-center align-items-center rounded-circle bg-light m-auto mb-2 shadow">
+                <i class="fa-solid fa-heart-pulse text-center fs-4 text-main-color "></i>
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="text-center">Heart Health</h5>
+                <div class="line m-auto"></div>
+                <p class="card-text text-center font-very-small text-black-50">Some quick example text to build
+                    on the card title and make up the bulk of the card's
+                    content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 m-auto" style="width: 18rem;">
+              <div class="m-auto circle-for-icon d-flex justify-content-center align-items-center rounded-circle bg-light m-auto mb-2 shadow">
+                <i class="fa-solid fa-brain text-center fs-4 text-main-color"></i>
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="text-center">Brain Health</h5>
+                <div class="line m-auto"></div>
+                <p class="card-text text-center font-very-small text-black-50">Some quick example text to build
+                    on the card title and make up the bulk of the card's
+                    content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 m-auto" style="width: 18rem;">
+              <div class="m-auto circle-for-icon d-flex justify-content-center align-items-center  rounded-circle bg-light m-auto mb-2 shadow">
+                <i class="fa-solid fa-lungs text-center fs-4 text-main-color"></i>
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="text-center">Lung Health</h5>
+                <div class="line m-auto"></div>
+                <p class="card-text text-center font-very-small text-black-50">Some quick example text to build
+                    on the card title and make up the bulk of the card's
+                    content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 m-auto" style="width: 18rem;">
+              <div class="m-auto circle-for-icon d-flex justify-content-center align-items-center  rounded-circle bg-light m-auto mb-2 shadow">
+                <i class="fa-solid fa-tooth text-center fs-4 text-main-color"></i>
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="text-center">Dental care</h5>
+                <div class="line m-auto"></div>
+                <p class="card-text text-center font-very-small text-black-50">Some quick example text to build
+                    on the card title and make up the bulk of the card's
+                    content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 m-auto" style="width: 18rem;">
+              <div class="m-auto circle-for-icon d-flex justify-content-center align-items-center  rounded-circle bg-light m-auto mb-2 shadow">
+                <i class="fa-solid fa-stethoscope text-center fs-4 text-main-color"></i>              </div>
+              <div class="card-body pt-0">
+                <h5 class="text-center">General Health</h5>
+                <div class="line m-auto"></div>
+                <p class="card-text text-center font-very-small text-black-50">Some quick example text to build
+                    on the card title and make up the bulk of the card's
+                    content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 m-auto" style="width: 18rem;">
+              <div class="m-auto circle-for-icon d-flex justify-content-center align-items-center  rounded-circle bg-light m-auto mb-2 shadow">
+                <i class="fa-solid fa-capsules text-center fs-4 text-main-color"></i>              </div>
+              <div class="card-body pt-0">
+                <h5 class="text-center">Pharmacy</h5>
+                <div class="line m-auto"></div>
+                <p class="card-text text-center font-very-small text-black-50">Some quick example text to build
+                    on the card title and make up the bulk of the card's
+                    content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- second-section -->
+    <section class="secondSection bg-second-color pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="title">
+            <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+              <h3 class="fs-4"> MAKE AN APPOINTMENT</h3>
+              <div class="line"></div>
+              <p class="font-very-small pt-2 text-center">
+                Necessite eius conse ex aliquid fuga eum quiedm sint consectetur
+                velit
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <form action="jody.php" class="row ">
+          <div class="col-12 col-md-6 col-lg-4 pt-3">
+            <input type="text" class="form-control w-100 border-secondary border-opacity-25 rounded p-1 ps-2 pe-2" id="exampleFormControlInput1" placeholder="your Name">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pt-3">
+            <input type="email" class="form-control w-100 border-secondary border-opacity-25 rounded p-1 ps-2 pe-2" id="exampleFormControlInput1" placeholder="your Email">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pt-3">
+            <input type="tel" class="form-control w-100 border-secondary border-opacity-25 rounded p-1 ps-2 pe-2" id="exampleFormControlInput1" placeholder="your Phone">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pt-3">
+            <input type="date" class="form-control w-100 border-secondary border-opacity-25 rounded p-1 ps-2 pe-2" id="exampleFormControlInput1">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pt-3">
+            <select
+            name="department"
+            id="department "
+            class="w-100 border-secondary border-opacity-25 rounded p-1 ps-2 pe-2">
+            <option value="" selected disabled>select department</option>
+            <option value="1">Heart health</option>
+            <option value="1">Brain health</option>
+            <option value="1">lungs health</option>
+            <option value="1">dental care</option>
+            <option value="1">General health</option>
+            <option value="1">pharmacy</option>
+          </select>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pt-3">
+            <select
+              name="department"
+              id="department "
+              class="w-100 border-secondary border-opacity-25 rounded p-1 ps-2 pe-2"
+            >
+              <option value="" selected disabled>select Doctor</option>
+              <option value="1">Dr.Hala</option>
+              <option value="1">Dr.Sorat</option>
+              <option value="1">Dr.Basel</option>
+              <option value="1">Dr.Basel</option>
+              <option value="1">Dr.Basel health</option>
+              <option value="1">Dr.Basel</option>
+            </select>
+          </div>
+          <div class="col-12 pt-3"></div>
+            <textarea
+              name="message"
+              id="m"
+              placeholder="Message (optional)"
+              class="text-area w-100 border-secondary border-opacity-25 rounded p-1 ps-2 pe-2"
+            >
+            </textarea>
+          
+          <button
+          class="btn bg-main-color font-very-small text-light my-button m-auto  mt-3  "
+          type="submit"
+        >
+          Make an Appointment
+        </button>
+        </form>
+      </div>
+    </section>
+
+<!-- third section -->
+    <section class="thirdSection thirdSection pt-5 pb-5" id="department">
+      <div class="title"></div>
+        <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+          <h3 class="fs-4">DEPARTMENT</h3>
+          <div class="line"></div>
+          <p class="font-very-small pt-2 text-center">
+            Necessite eius conse ex aliquid fuga eum quiedm sint consectetur
+            velit
+          </p>
+        </div>
+      </div>
+
+      <div class="d-flex align-items-start  ">
+        <div class="container mt-5 ">
+          <div class="row">
+            <div class="col-12 col-md-3 col-lg-3 pe-0 ps-0 mb-4 ">
+              <div class="nav flex-column nav-pills  border-end " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link tabLink active mb-3 text-md-start text-center  ps-4" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-cardiology" aria-selected="true">cardiology</button>
+                <button class="nav-link tabLink mb-3 text-md-start text-center ps-4" id="v-pills-profile-tab " data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-Neurology" aria-selected="false">Neurology</button>
+                <button class="nav-link tabLink mb-3 text-md-start text-center  ps-4" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-hepatology" aria-selected="false" >hepatology</button>
+                <button class="nav-link tabLink mb-3 text-md-start text-center  ps-4" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-Pediatrics" aria-selected="false">Pediatrics</button>
+                <button class="nav-link tabLink mb-3 text-md-start text-center  ps-4" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-ophthalmologists" aria-selected="false">ophthalmologists</button>
+              </div>
+            </div>
+            <div class="col-12 col-md-9 col-lg-9 pe-0 ps-0">
+              <div class="tab-content  " id="v-pills-tabContent">
+                <div class="tab-pane fade show active " id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                  <div class="container ">
+                    <div class="row ">
+                      <div class="col-lg-6 col-md-8 col-12  ">
+                        <div class="forparagrapg  text-black mb-4 text-center text-md-start">
+                          <h6 class="text-md-start text-center mb-2 ">cardiology</h6>
+                          <p> Lorem ipsum dolor sit amet.</p>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis odit sunt quam, pariatur non suscipit laudantium maiores recusandae nam facilis distinctio qui culpa id ipsa. Blanditiis, recusandae vero! Quam, soluta!</p>
+                        </div>
+                      </div>    
+                      <div class="col-lg-6 col-md-4 col-12 ">
+                        <div class="forimg ">
+                          <img src="./asset/images/departments-1.jpg" alt="department 1" class=" w-100  ">
+                        </div>
+                      </div>
+    
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">                  <div class="container ">
+                  <div class="row ">
+                    <div class="col-lg-6 col-md-8 col-12 ">
+                      <div class="forparagrapg  text-black mb-4 text-center text-md-start ">
+                        <h6 class="text-md-start text-center mb-2">Neurology</h6>
+                        <p> Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ad, ex obcaecati assumenda adipisci, voluptatibus necessitatibus, in odio voluptatem perspiciatis culpa dolores pariatur rerum quod illo voluptate labore veritatis consequatur!</p>
+                      </div>
+                    </div>    
+                    <div class="col-lg-6 col-md-4 col-12 ">
+                      <div class="forimg ">
+                        <img src="./asset/images/departments-2.jpg" alt="department 1" class=" w-100  ">
+                      </div>
+                    </div>
+  
+                  </div>
+                </div></div>
+                <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">                  <div class="container ">
+                  <div class="row ">
+                    <div class="col-lg-6 col-md-8 col-12 ">
+                      <div class="forparagrapg  text-black mb-4 text-center text-md-start ">
+                        <h6 class="text-md-start text-center mb-2">Hepatology</h6>
+                        <p> Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo deserunt debitis sunt totam harum quos non ullam illo natus, atque similique mollitia temporibus quidem libero. Quam voluptatem dicta tempora minima!</p>
+                      </div>
+                    </div>    
+                    <div class="col-lg-6 col-md-4 col-12 ">
+                      <div class="forimg ">
+                        <img src="./asset/images/departments-3.jpg" alt="department 1" class=" w-100  ">
+                      </div>
+                    </div>
+  
+                  </div>
+                </div></div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">                  <div class="container ">
+                  <div class="row ">
+                    <div class="col-lg-6 col-md-8 col-12 ">
+                      <div class="forparagrapg  text-black mb-4 text-center text-md-start ">
+                        <h6 class="text-md-start text-center mb-2">Pediatrics</h6>
+                        <p> Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui voluptatem dolor laudantium ipsa esse libero consequuntur id, pariatur, architecto labore atque a! Facere saepe distinctio illum a eligendi quos?</p>
+                      </div>
+                    </div>    
+                    <div class="col-lg-6 col-md-4 col-12 ">
+                      <div class="forimg ">
+                        <img src="./asset/images/departments-4.jpg" alt="department 1" class=" w-100  ">
+                      </div>
+                    </div>
+  
+                  </div>
+                </div></div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">                  <div class="container ">
+                  <div class="row ">
+                    <div class="col-lg-6 col-md-8 col-12 ">
+                      <div class="forparagrapg  text-black mb-4 text-center text-md-start ">
+                        <h6 class="text-md-start text-center mb-2">Opththalmologists</h6>
+                        <p> Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolore, excepturi eius assumenda officiis autem eveniet quod, consequuntur aliquam voluptatem sint animi nam possimus fuga non provident corrupti et quas.</p>
+                      </div>
+                    </div>    
+                    <div class="col-lg-6 col-md-4 col-12 ">
+                      <div class="forimg ">
+                        <img src="./asset/images/departments-5.jpg" alt="department 1" class=" w-100  ">
+                      </div>
+                    </div>
+  
+                  </div>
+                </div></div>
+              </div>
+            </div>          
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- fourth section -->
+    <section class="fourthSection bg-second-color pt-5 pb-5">
+      <div class="title"></div>
+      <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+        <h3 class="fs-4">Frequently Asked Questions</h3>
+        <div class="line"></div>
+        <p class="font-very-small pt-2 text-center">
+          Necessite eius conse ex aliquid fuga eum quiedm sint consectetur
+          velit
+        </p>
+      </div>
+
+    
+    <div class="container mt-4">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item mb-3 shadow-sm">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Lorem ipsum dolor sit amet consectetur.?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the  class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3 shadow-sm">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Lorem ipsum dolor sit amet consectetur adipisicing.?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the  class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3 shadow-sm">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nemo m qui veniam.?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the  class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+
+    <!-- fifth section -->
+      <section class="fifth_section pt-5 pb-5" id="contact">
+      <div class="title"></div>
+      <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+        <h3 class="fs-4">Contact</h3>
+        <div class="line"></div>
+        <p class="font-very-small pt-2 text-center">
+          Necessite eius conse ex aliquid fuga eum quiedm sint consectetur
+          velit
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.682833583!2d55.557163810295684!3d25.07628044481033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2z2K_YqNmKIC0g2KfZhNil2YXYp9ix2KfYqiDYp9mE2LnYsdio2YrYqSDYp9mE2YXYqtit2K_YqQ!5e0!3m2!1sar!2spt!4v1728026563600!5m2!1sar!2spt" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <div class="row p-5 d-flex justify-content-around">
+          <div class="col-12 col-md-6  ">
+            <div class="up d-flex flex-column align-items-center justify-content-center p-3 mb-3 border-4 shadow-sm">
+              <div class="cirleToicon  circle-for-icon border-dotted rounded-circle mb-2 d-flex justify-content-center align-items-center">
+                <i class="fa-sharp fa-solid fa-house text-main-color"></i>
+              </div>
+              <h6 class="mb-1">Our Address</h6>
+              <a href="#" class="font-very-small text-main-color text-decoration-none">View on Map</a>
+            </div>
+            <div class="down d-flex justify-content-between pt-3 ">
+              <div class="left d-flex  flex-column align-items-center justify-content-center  pt-3 pb-3 border-4 shadow-sm width-48 mb-0">
+                <div class="cirleToicon  circle-for-icon d-flex justify-content-center align-items-center  border-dotted rounded-circle mb-2">
+                  <i class="fa-solid fa-phone-flip text-main-color"></i>
+                </div>
+                <h6 class="mb-1">Phone Number</h6>
+                <a href="#" class="font-very-small text-main-color text-decoration-none">Call Us Now</a>
+              </div>
+              <div class="right d-flex flex flex-column align-items-center justify-content-center  pt-3 pb-3 border-4 shadow-sm width-48 mb-0">
+                <div class="cirleToicon  circle-for-icon d-flex justify-content-center align-items-center  border-dotted rounded-circle mb-2">
+                  <i class="fa-solid fa-envelope text-main-color"></i>
+                </div>
+                <h6 class="mb-1">Email Address</h6>
+                <a href="#" class="font-very-small text-main-color text-decoration-none">Send Email</a>
+              </div>
+            </div>
+          </div>
+
+          <form action="joudy.php" class="col-12 col-md-6 d-flex flex-column p-3 pt-5 pb-3 border-4 shadow-sm ">
+            <div class="d-flex justify-content-between">
+              <input type="text" placeholder="Enter your first name" class="mb-3 border-secondary border-opacity-25 font-very-small p-1 rounded-1 width-45" >
+              <input type="email" placeholder="Enter your first Email" class="mb-3 border-secondary border-opacity-25 font-very-small p-1 rounded-1 width-45">
+            </div>
+            <input type="text" placeholder="Enter the subject" class="mb-3 border-secondary border-opacity-25  p-1 font-very-small rounded-1">
+            <textarea name="" id="" placeholder="Enter your message" class="mb-3 border-secondary border-opacity-25  p-1 font-very-small rounded-1"></textarea>
+            <button class="w-25 m-auto my-button rounded-2 bg-main-color border-0 text-white pt-1 pb-1 "> send</button>
+          </form>
+
+        </div>
+      </div>
+
+      </section>
+      <!-- footer -->
+      <footer class=" bg-second-color pt-5 pb-5" >
+        <div class="container">
+          <div class="row pb-3 border-bottom border-bottom-1 border-secondary border-opacity-50 d-flex   justify-content-center align-items-center ">
+            <div class="col-12 col-md-4 col-lg-4 d-flex align-items-lg-start flex-column justify-content-around ps-5 align-items-center mb-4">
+              <h6 class="mb-4 fs-5"> Medico </h6>
+              <p class="font-very-small mb-0">A108 Adam Street New York NY  </p>
+              <span class="font-very-small mb-1 d-block">53550</span>
+              <div>
+                <span class="font-very-small mt-0 d-inline-block" > phone</span>
+                <span class="font-very-small mt-2 mb-1 text-black-50 d-inline-block"> :  0984984285</span>
+              </div>
+
+
+
+              <p class="font-very-small mb-1"><span >Email</span ><a href="#" class="text-decoration-none text-black-50">:    Enjoudy@gmail.com </a>
+              <div class="icons d-flex mt-2">
+                <div class="circle-for-small-icon d-flex justify-content-center align-items-center  d-flex justify-content-center align-content-center rounded-circle border border-1 border-secondary me-2">
+                  <a href="https://www.facebook.com/profile.php?id=100008991941437&mibextid=ZbWKwL"><i class="fa-brands fa-facebook-f text-secondary"></i></a>
+                </div>
+                <div class="circle-for-small-icon d-flex justify-content-center align-items-center  d-flex justify-content-center align-content-center  rounded-circle border border-1 border-secondary me-2">
+                  <a href="#"><i class="fa-brands fa-twitter text-secondary"></i></a>
+                </div>
+                <div class="circle-for-small-icon d-flex justify-content-center align-content-center  d-flex justify-content-center align-content-center  rounded-circle border border-1 border-secondary me-2">
+                  <a href="https://www.linkedin.com/in/joudy-swied-b3653232a"><i class="fa-brands fa-linkedin-in text-secondary"></i></a>
+                </div>
+                <div class="circle-for-small-icon d-flex justify-content-center align-items-center  rounded-circle border border-1 border-secondary me-2">
+                  <a href="https://www.instagram.com/joudyswied/profilecard/?igsh=dHVtZ3FqMnMweXk4"><i class="fa-brands fa-instagram text-secondary"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 d-flex flex-column align-items-center mb-4">
+              <h6 class="mb-4 fs-5"> Useful links </h6>
+              <ul class="list-unstyled ">
+                <li class="mb-1"><a href="#hero" class=" text-decoration-none text-black-50 font-very-small  "> Home</a></li>
+                <li class="mb-1"><a href="#" class=" text-decoration-none text-black-50 font-very-small"> About Us</a></li>
+                <li class="mb-1"><a href="#service" class=" text-decoration-none text-black-50 font-very-small"> Service</a></li>
+                <li class="mb-1"><a href="#" class=" text-decoration-none text-black-50 font-very-small"> Terms of Service</a></li>
+                <li class="mb-1"><a href="#" class=" text-decoration-none text-black-50 font-very-small"> Privacy policy</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 d-flex flex-column align-items-center mb-4">
+              <h6 class="mb-4 fs-5"> Our Service </h6>
+              <ul class="list-unstyled">
+                <li class="mb-2 text-black-50 font-very-small"> Web Design</li>
+                <li class="mb-2 text-black-50 font-very-small"> Web Development</li>
+                <li class="mb-2 text-black-50 font-very-small"> Product Management </li>
+                <li class="mb-2 text-black-50 font-very-small"> Marketing</li>
+                <li class="mb-2 text-black-50 font-very-small"> Graphic Design></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 d-flex flex-column align-items-center mb-4">
+              <h6 class="mb-4 fs-5"> Hic solutasetep </h6>
+              <ul class="list-unstyled">
+                <li class="mb-2 text-black-50 font-very-small"> Molestiae accusamus iure</li>
+                <li class="mb-2 text-black-50 font-very-small"> Excepturi dignissimos</li>
+                <li class="mb-2 text-black-50 font-very-small"> Suscipt distinctio </li>
+                <li class="mb-2 text-black-50 font-very-small"> Dilecta</li>
+                <li class="mb-2 text-black-50 font-very-small"> Site quas consectur</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 d-flex flex-column align-items-center mb-4">
+              <h6 class="mb-4 fs-5"> Nobis illum  </h6>
+              <ul class="list-unstyled">
+                <li class="mb-2 text-black-50 font-very-small"> ipsam</li>
+                <li class="mb-2 text-black-50 font-very-small"> laudantium dolorume</li>
+                <li class="mb-2 text-black-50 font-very-small"> trodelas </li>
+                <li class="mb-2 text-black-50 font-very-small"> flexo</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <span class="d-block text-center font-very-small"> &copy; copyright <span class="fw-bold">Medico  </span>All Rights Reserved</span>
+            <span class="text-center font-very-small"> Designed by <span class="text-main-color"> Eng: Joudy Swied</span></span>
+          </div>
+        </div>
+      </footer>
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+  </body>
+</html>

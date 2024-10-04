@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Roboto", sans-serif;
+}
+/* my special classes */
+.bg-main-color {
+    background-color:#3FBABF ;
+}
+.bg-second-color {
+    background-color:#66e0e421 ;
+}
+.text-main-color {
+    color:#3FBABF ;
+}
+
+.my-button:hover{
+    color: #3FBABF !important;
+    border:2px solid #3FBABF !important;
+    background-color: white;
+}
+
+.width-45 {
+    width: 45%;
+}
+.width-48 {
+    width: 48%;
+}
+.border-dotted {
+    border: #3FBABF 2px dotted;
+}
+
+.font-very-small{
+    font-size: 12px;
+}
+.circle-for-icon{
+    width: 50px;
+    height: 50px;  
+    }
+.circle-for-small-icon{
+    width: 30px;
+    height: 30px;
+    }
+
+/* start nav */
+
+.logo {
+    width: 100px;    
+}
+.active {
+    color: #3FBABF !important;
+}
+/* end nav */
+
+/* start hero */
+
+.carousel-caption{
+    height: 150px !important;
+}
+.carousel-item {
+    height:100vh
+}
+.carousel-caption{
+    border-top:4px solid #3FBABF !important;
+}
+.carousel-indicators button {
+    width: 10px !important; 
+    height: 10px !important; 
+}
+.carousel-indicators .active { 
+    background-color: #3FBABF !important;
+}
+
+/* this to keep image focus at the center */
+img.d-block{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* end hero */
+
+/* firstsection */
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #3FBABF;
+}
+
+/* second section */
+.text-area{
+    height: 100px;
+}
+.secondSection .my-button{
+    width: 200px;
+}
+
+/* third section */
+
+.nav-link.tabLink{
+color: #060606;
+}
+
+.nav-link.tabLink.active{
+background-color: inherit;
+color: #3FBABF;
+border-right: #3FBABF 2px solid;
+border-radius: 0%;
+}
+
+
+@media screen and (max-width:768px) {
+    .carousel-caption {
+        height: auto !important;
+    }
+
+
+}
+
+@media screen and ( min-width:769px)and (max-width:992px) {
+    .carousel-caption {
+        height: auto !important;
+    }
+    .nav-link.tabLink{
+        font-size: 12px;
+        }
+}
